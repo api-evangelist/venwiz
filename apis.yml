@@ -1,7 +1,16 @@
 aid: venwiz
 name: Venwiz
-description: 'Venwiz is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: services. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Venwiz is a Bengaluru, India based B2B digital platform for the procurement
+  of industrial and infrastructural project services, covering both CapEx and MRO
+  requirements for the manufacturing sector. Founded in 2020 by Rajesh Reddy and Sandesh
+  Paturi, it operates a marketplace that connects industrial buyers with a verified,
+  pan-India database of service vendors, adding vendor discovery, order expediting,
+  project management tooling and vendor intelligence on top. Backed by Accel and other
+  investors (~$11.4M raised), Venwiz digitises what has traditionally been an offline,
+  relationship-driven industrial services procurement process. No public developer
+  API, OpenAPI/Swagger definition, SDK, or documentation surface is published as of
+  this enrichment pass; the public presence is a marketing/content website plus a
+  login-gated application.'
 url: https://raw.githubusercontent.com/api-evangelist/venwiz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,32 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.venwiz.com/wp-content/uploads/2023/09/Ven-Logo-Light-Colour-5.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Services
+- Procurement
+- Manufacturing
+- Industrial
+- Marketplace
+- Vendor Management
+- CapEx
+- MRO
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/venwiz-domain-security.yml
 - type: Website
   url: https://www.venwiz.com/
+- type: Support
+  url: https://www.venwiz.com/help-support/
+  name: Help and support
+- type: Blog
+  url: https://www.venwiz.com/blog/
+- type: PrivacyPolicy
+  url: https://www.venwiz.com/privacy-policy/
+- type: SignUp
+  url: https://www.venwiz.com/book-a-demo
+  name: Book a Demo
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
